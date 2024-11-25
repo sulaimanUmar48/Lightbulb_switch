@@ -3,7 +3,6 @@ const controls = document.querySelector(".controls")
 
 controls.addEventListener("click", (x)=>{
     const buttonState = x.target.dataset.state;
-    console.log(buttonState);
     if(buttonState === "On"){
         img.src = "Assets/VectorOn.png"
         img.classList.add("on")
